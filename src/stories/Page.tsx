@@ -3,7 +3,14 @@ import React from 'react';
 import { Header } from './Header';
 import './page.css';
 
-type User = {
+// export interface PageProps {
+//   user?:{},
+//   onLogin: () => void,
+//   onLogout: () => void,
+//   onCreateAccount: () => void,
+// }
+
+export type User = {
   name: string;
 };
 
